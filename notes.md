@@ -36,3 +36,20 @@ production:
 ![image](https://user-images.githubusercontent.com/1529796/91763604-10098280-eb93-11ea-8068-1731258db262.png)
 
 7. $ RAILS_ENV=development rails g scaffold Pie title:string pieces:string chunks:string
+
+ActiveSupport::Inflector.inflections(:en) do |inflect|
+  inflect.irregular 'pie', 'pies'
+end
+
+https://github.com/rails-api/rails-api/issues/29
+https://github.com/gothinkster/rails-realworld-example-app
+
+https://github.com/ansonK/underscore_params
+https://thinkster.io/tutorials/rails-json-api/setting-up-users-and-authentication-for-our-api
+
+8. Add gem 'devise'
+9. $ rails generate devise:install
+10. $ rails generate devise User
+11. $ rails g migration AddUsernameToUsers username:string
+
+

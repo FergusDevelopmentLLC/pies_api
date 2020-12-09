@@ -15,7 +15,12 @@ class PiesController < ApplicationController
 
   # POST /pies
   def create
+    
     @pie = Pie.new(pie_params)
+
+    if params["pie"]["pieces"]
+      @pie.pieces = params["pie"]["pieces"]
+    end
 
     if @pie.save
       render json: @pie, status: :created, location: @pie
@@ -46,6 +51,16 @@ class PiesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def pie_params
-      params.require(:pie).permit(:title, :pieces, :chunks)
+      pp = params.require(:pie).permit(:id, :title, :pieces, :chunks, :created_at, :updated_at)
+
+      if params["pie"]["chunks"]
+        pp["chunks"] = params["pie"]["chunks"]
+      end
+
+      if params["pie"]["chunks"]
+        pp["pieces"] = params["pie"]["pieces"]
+      end
+      
+      pp
     end
 end
