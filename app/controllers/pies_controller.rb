@@ -51,7 +51,7 @@ class PiesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def pie_params
-      pp = params.require(:pie).permit(:id, :title, :pieces, :chunks, :created_at, :updated_at)
+      pp = params.require(:pie).permit(:id, :title, :pieces, :chunks, :user_id, :created_at, :updated_at)
 
       if params["pie"]["chunks"]
         pp["chunks"] = params["pie"]["chunks"]
