@@ -36,13 +36,14 @@ development:
   database: pies_api
   pool: 2
   username: pies_api
-  password: <password for >
+  password: <password for pies_api>
   host: localhost
   port: 5432
 ```
 8. Start the backend app.
 
 ```
+$ cd pies_api
 $ RAILS_ENV=development rails s
 ```
 
@@ -51,10 +52,6 @@ $ RAILS_ENV=development rails s
 This back end drives the following React/Redux based front end:
 
 https://github.com/FergusDevelopmentLLC/pies_fe
-
-## Deliverables
-
-Here is a list of project deliverables for the back end and front end (specific line numbers are referenced for each deliverable) https://github.com/FergusDevelopmentLLC/hiking_project_api/blob/master/deliverables.md
 
 ## Blog post
 
