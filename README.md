@@ -9,7 +9,7 @@ This is the backend for Success pies, a tool to help you keep track of your goal
 3. Create a system user named pies_api to act as the user to connect to the database for this app. Note password used for pies_api user here.
 
 ```
-$ sudo adduser hero_api
+$ sudo adduser pies_api
 ```
 4. Make the user be a root user.
 ```
