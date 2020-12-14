@@ -49,22 +49,8 @@ $ RAILS_ENV=development rails s
 
 ## Front end repository
 
-This back end drives the following React/Redux based front end:
-
+This back end drives the following React/Redux based front end:  
 https://github.com/FergusDevelopmentLLC/pies_fe
-
-## Blog post
-
-Blog post that details a build of a Ruby on Rails API and a React/Redux front end that is informed by this project.  
-https://will-carter.medium.com/reacting-redoing-learning-a643cf0a9966
-
-## Video walkthrough
-
-https://www.youtube.com/watch?v=2fK7-zI9Kzc
-
-## Code sample video
-
-https://www.youtube.com/watch?v=C-d2N8V-Zps
 
 ## Contributing Bugfixes or Features
 
