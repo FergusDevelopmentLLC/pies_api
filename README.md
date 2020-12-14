@@ -24,7 +24,7 @@ $ createdb pies_api
 6. Provide the privileges to pies_api user in psql, for the pies_api database.
 ```
 postgres@computer:~$ psql
-postgres=# alter user pies_api with encrypted password '<password>';
+postgres=# alter user pies_api with encrypted password '<password for pies_api>';
 postgres=# grant all privileges on database pies_api to pies_api;
 
 ```
