@@ -55,8 +55,7 @@ https://github.com/FergusDevelopmentLLC/pies_fe
 
 ## Blog post
 
-Blog post that details a build of a Ruby on Rails API and a React/Redux front end that is informed by this project
-
+Blog post that details a build of a Ruby on Rails API and a React/Redux front end that is informed by this project.  
 https://will-carter.medium.com/reacting-redoing-learning-a643cf0a9966
 
 ## Video walkthrough
