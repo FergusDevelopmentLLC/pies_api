@@ -54,4 +54,11 @@ https://thinkster.io/tutorials/rails-json-api/setting-up-users-and-authenticatio
 
 
 https://devcenter.heroku.com/articles/getting-started-with-rails6 
+https://stackoverflow.com/questions/38167835/ruby-on-rails-heroku-missing-secret-key-base-for-production-environment
+https://devcenter.heroku.com/articles/logging#writing-to-your-log
+
+$ heroku config:set SECRET_KEY_BASE=$(rake secret)
+$ heroku config:get SECRET_KEY_BASE
+and check that rails picks it up with Rails.application.secret_key_base (in heroku run rails console for instance)
+$ heroku run rails console
 
