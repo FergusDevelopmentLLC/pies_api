@@ -53,3 +53,5 @@ https://thinkster.io/tutorials/rails-json-api/setting-up-users-and-authenticatio
 11. $ rails g migration AddUsernameToUsers username:string
 
 
+https://devcenter.heroku.com/articles/getting-started-with-rails6 
+
