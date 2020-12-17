@@ -66,5 +66,7 @@ $ heroku logs --tail
 https://devcenter.heroku.com/articles/config-vars#managing-config-vars
 
 $ heroku config:set SECRET_KEY_BASE=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+$ git push heroku main
+$ heroku run rake db:migrate
 
 
