@@ -63,4 +63,8 @@ and check that rails picks it up with Rails.application.secret_key_base (in hero
 $ heroku run rails console
 
 $ heroku logs --tail
+https://devcenter.heroku.com/articles/config-vars#managing-config-vars
+
+$ heroku config:set SECRET_KEY_BASE=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 
