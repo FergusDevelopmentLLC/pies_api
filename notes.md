@@ -62,3 +62,5 @@ $ heroku config:get SECRET_KEY_BASE
 and check that rails picks it up with Rails.application.secret_key_base (in heroku run rails console for instance)
 $ heroku run rails console
 
+$ heroku logs --tail
+
